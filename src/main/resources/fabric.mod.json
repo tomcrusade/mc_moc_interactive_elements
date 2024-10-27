@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "tech_adventure",
+  "version": "${version}",
+  "name": "Simplified Tech",
+  "description": "Simplified tech progression mechanics from bunch of tech mods",
+  "authors": [],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/tech_adventure/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.tomcrusade.tech_adventure.Client"
+    ],
+    "main": [
+      "org.tomcrusade.tech_adventure.Main"
+    ]
+  },
+  "mixins": [
+    "tech_adventure.mixins.json",
+    {
+      "config": "tech_adventure.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "custom": {
+    "loom:injected_interfaces": {
+      "net/minecraft/class_1792": ["org/tomcrusade/tech_adventure/utils/MixinItem"]
+    }
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

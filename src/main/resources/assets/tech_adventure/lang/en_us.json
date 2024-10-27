@@ -1,0 +1,9 @@
+{
+  "item_groups.tech_adventure.functional": "Interactive Elements Functional Stuff",
+  "item.tech_adventure.materials.interactable_blocks.button": "%s Button",
+  "item.tech_adventure.materials.interactable_blocks.trapdoor": "%s Trapdoor",
+  "item.tech_adventure.materials.interactable_blocks.door": "%s Door",
+  "item.tech_adventure.materials.interactable_blocks.pressure_plate": "%s Pressure Plate",
+  "item.tech_adventure.materials.interactable_blocks.cauldron": "%s Cauldron",
+  "item.tech_adventure.materials.interactable_blocks.bulb": "%s Light Bulb"
+}
